@@ -1,7 +1,7 @@
 #!/bin/bash
 # This script installs dwm for arch
 
-doas pacman -S --needed --noconfirm xorg-server xorg-init git libxft
+doas pacman -S --needed --noconfirm base-devel xorg-server xorg-init git libxft
 cd
 git clone https://git.suckless.org/dwm
 cd dwm
