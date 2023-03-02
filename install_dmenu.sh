@@ -1,6 +1,7 @@
 #!/bin/bash
 # This script installs dwm for arch
 
+doas pacman -Sy
 doas pacman -S --needed --noconfirm base-devel git libxinerama
 cd
 git clone https://git.suckless.org/dmenu

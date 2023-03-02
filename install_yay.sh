@@ -1,6 +1,7 @@
 #!/bin/bash
 # This script installs VSCodium on Arch
 
+doas pacman -Sy
 doas pacman -S --needed --noconfirm base-devel git
 cd
 git clone https://AUR.archlinux.org/yay-bin.git

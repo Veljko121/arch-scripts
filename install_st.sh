@@ -1,6 +1,7 @@
 #!/bin/bash
 # This script installs st terminal emulator for arch
 
+doas pacman -Sy
 doas pacman -S --needed --noconfirm base-devel git
 cd
 git clone https://git.suckless.org/st
